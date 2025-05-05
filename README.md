@@ -1,2 +1,2 @@
 # Portfolio
-Portfólios com açguns projetos feitos durante 5 semestres da faculdade.
+Portfólios com alguns projetos feitos durante 5 primeiros semestres da faculdade.
