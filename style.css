@@ -1,0 +1,82 @@
+:root {
+    --azul-escuro: #0A2463;
+    --azul-claro: #3E92CC;
+    --preto: #2E2E2E;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    color: var(--preto);
+    background: #f5f5f5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.profile-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.profile-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    border: 3px solid var(--azul-claro);
+}
+
+h1, h2, h3 {
+    color: var(--azul-escuro);
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    border-bottom: 2px solid var(--azul-claro);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.github-link a {
+    color: var(--azul-escuro);
+    text-decoration: none;
+}
+
+.btn {
+    display: block;
+    background: var(--azul-claro);
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: var(--azul-escuro);
+}
+
+section {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Adicione mais estilos conforme necessário */
