@@ -3,73 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Danilo Pereira Lima - Portfólio</title>
+    <title>Danilo Pereira Lima - Desenvolvedor Full Stack</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <div class="container">
-        <!-- Seção Esquerda -->
-        <div class="left-column">
-            <div class="profile-card">
-               <!-- <img src="foto.jpg" alt="Danilo Pereira Lima"> -->
-                <h1>Danilo Pereira de Lima</h1>
-                <p class="github-link">
-                    <a href="https://github.com/Mr-Robo-D" target="_blank">
-                        <i class="fab fa-github"></i> GitHub/Mr-Robo-D
-                    </a>
-                </p>
+    <!-- Cabeçalho -->
+    <header class="main-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="profile-image-frame">
+                    <img src="./img/a2.jpg" alt="Danilo Pereira Lima" class="profile-image">
+                </div>
+                <div class="header-info">
+                    <h1>Danilo Pereira Lima</h1>
+                    <p class="tagline">Desenvolvedor Full Stack | Entusiasta de Tecnologia</p>
+                    <div class="social-links">
+                        <a href="https://github.com/Mr-Robo-D" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i> GitHub/Mr-Robo-D
+                        </a>
+                        <a href="https://linkedin.com/in/exemplo" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                    </div>
+                </div>
             </div>
-
-            <section class="education">
-                <h2><i class="fas fa-graduation-cap"></i> Formação</h2>
-                <ul>
-                    <li>Tecnologia em Desenvolvimento de Software Multiplataforma</li>
-                    <li>Faculdade de Tecnologia de Itaquera - Professor Miguel Reale</li>
-                    <li>6° Semestre | Conclusão: 2025</li>
-                </ul>
-            </section>
-
-            <section class="languages">
-                <h2><i class="fas fa-language"></i> Idiomas</h2>
-                <ul>
-                    <li>Português: Nativo</li>
-                    <li>Inglês: Intermediário</li>
-                </ul>
-            </section>
         </div>
+    </header>
 
-        <!-- Seção Direita -->
-        <div class="right-column">
-            <section class="experience">
-                <h2><i class="fas fa-briefcase"></i> Experiência Profissional</h2>
-                <div class="job">
-                    <h3>FERRUGEM GAMES - ASSISTÊNCIA TÉCNICA</h3>
-                    <p class="date">Desde 01/03/2019</p>
-                    <p class="position">Técnico de Manutenção</p>
+    <!-- Sobre Mim -->
+    <section class="about">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <p>Sou um desenvolvedor Full Stack apaixonado por criar soluções inovadoras e eficientes. Tenho experiência em diversas tecnologias e frameworks, e estou sempre em busca de novos desafios para expandir minhas habilidades e contribuir para projetos impactantes.</p>
+        </div>
+    </section>
+
+    <!-- Formação -->
+    <section class="education">
+        <div class="container">
+            <h2><i class="fas fa-graduation-cap"></i> Formação</h2>
+            <ul>
+                <li><strong>Tecnologia em Desenvolvimento de Software Multiplataforma</strong> - Faculdade de Tecnologia de Itaquera (FATEC) - Conclusão: 2025</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Experiência -->
+    <section class="experience">
+        <div class="container">
+            <h2><i class="fas fa-briefcase"></i> Experiência Profissional</h2>
+            <div class="job">
+                <h3>FERRUGEM GAMES - ASSISTÊNCIA TÉCNICA</h3>
+                <p class="date">Desde 01/03/2019</p>
+                <p class="position">Técnico de Manutenção</p>
+                <ul>
+                    <li>Manutenção de hardware e software em computadores e videogames.</li>
+                    <li>Consultoria em TI e suporte técnico avançado.</li>
+                    <li>Desenvolvimento de soluções personalizadas para clientes.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills">
+        <div class="container">
+            <h2><i class="fas fa-laptop-code"></i> Skills & Tecnologias</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Linguagens</h3>
                     <ul>
-                        <li>Manutenção de Micros e Videogames</li>
-                        <li>Vendas e Suporte Técnico</li>
-                        <li>Consultoria em TI</li>
+                        <li>Kotlin</li>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>JavaScript</li>
+                        <li>C/C++</li>
                     </ul>
                 </div>
-            </section>
-
-            <section class="courses">
-                <h2><i class="fas fa-certificate"></i> Cursos</h2>
-                <ul>
-                    <li>Fundamentos de Lógica de Programação - Fundação Bradesco</li>
-                    <li>Python Essentials - Cisco</li>
-                    <li>Formação em Cyber Segurança – SOFTEX Hackers do Bem</li>
-                </ul>
-            </section>
-
-            <section class="portfolio-link">
-                <a href="projects.html" class="btn">
-                    <i class="fas fa-folder-open"></i> Ver Portfólio de Projetos
-                </a>
-            </section>
+                <div class="skill-category">
+                    <h3>Frameworks</h3>
+                    <ul>
+                        <li>Ktor</li>
+                        <li>Jetpack Compose</li>
+                        <li>React Native</li>
+                        <li>Spring Boot</li>
+                        <li>Flask</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Outros</h3>
+                    <ul>
+                        <li>Docker</li>
+                        <li>Git/GitHub</li>
+                        <li>MySQL/MongoDB</li>
+                        <li>Arduino/ESP32</li>
+                        <li>TensorFlow</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
+
+    <!-- Port -->
+    <section class="portfolio">
+        <div class="container">
+            <h2><i class="fas fa-folder-open"></i> Portfólio de Projetos</h2>
+            <p>Confira alguns dos projetos que desenvolvi durante minha jornada acadêmica e profissional.</p>
+            <a href="projects.html" class="btn">
+                <i class="fas fa-folder-open"></i> Ver Portfólio de Projetos
+            </a>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 Danilo Pereira Lima. Todos os direitos reservados.</p>
+        </div>
+    </footer>
 </body>
 </html>

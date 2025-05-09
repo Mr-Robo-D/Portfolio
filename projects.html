@@ -1,24 +1,145 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Projetos - Danilo Pereira</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Adicionando Slick Carousel -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
 </head>
 <body>
     <div class="container">
-        <h1>Meus Projetos</h1>
+        <header class="project-header">
+            <h1>Meus Projetos</h1>
+            <a href="index.html" class="btn back-btn">
+                <i class="fas fa-arrow-left"></i> Voltar ao Início
+            </a>
+        </header>
         
         <div class="projects-grid">
             <!-- Projeto 1 -->
             <div class="project-card">
-                <h3> Projeto 1</h3>
-                <p class="project-description">Descrição</p>
-                <a href="projeto1.html" class="btn">Detalhes</a>
+                <div class="project-carousel">
+                    <div><img src="./img/e-1.png" alt="E-commerce de Livraria"></div>
+                    <div><img src="./img/e-2.png" alt="E-commerce de Livraria"></div>
+                    <div><img src="./img/e-3.png" alt="E-commerce de Livraria"></div>
+                </div>
+                <div class="project-content">
+                    <h3>Engenharia de Software - E-commerce de Livraria</h3>
+                    <p class="project-description">Análise e design de uma Aplicação Web de E-commerce de Livraria</p>
+                    <div class="project-footer">
+                        <a href="https://github.com/Mr-Robo-D/Analise-Design-Web" class="btn">Ver mais detalhes no GitHub</a>
+                    </div>
+                </div>
             </div>
 
-            <!-- projeto 2...-->
+            <!-- Projeto 2 -->
+            <div class="project-card">
+                <div class="project-carousel">
+                    <div><img src="./img/kindle1.png" alt="Clone Kindle"></div>
+                    <div><img src="./img/kindle2.png" alt="Clone Kindle"></div>
+                    <div><img src="./img/kindle3.png" alt="Clone Kindle"></div>
+                </div>
+                <div class="project-content">
+                    <h3>Clone Kindle</h3>
+                    <p class="project-description">Clone da pagina inicial do Kindle feito em React Native</p>
+                    <div class="project-footer">
+                        <a href="https://github.com/Mr-Robo-D/react-native/tree/main/kindle" class="btn">Ver mais detalhes no GitHub</a>
+                    </div>
+                </div>
+            </div>
 
+            <!-- Projeto 3 -->
+            <div class="project-card">
+                <div class="project-carousel">
+                    <div><img src="./img/loja1.jpg" alt="Loja de Brinquedos"></div>
+                    <div><img src="./img/loja2.jpg" alt="Loja de Brinquedos"></div>
+                    <div><img src="./img/loja3.jpg" alt="Loja de Brinquedos"></div>
+                </div>
+                <div class="project-content">
+                    <h3>Loja de Brinquedo</h3>
+                    <p class="project-description">Criando um CRUD básico em uma aplicação Java utilizando Spring Boot</p>
+                    <div class="project-footer">
+                        <a href="https://github.com/Mr-Robo-D/Lojinha" class="btn">Ver mais detalhes no GitHub</a>
+                    </div>
+                </div>
+            </div>
 
+            <!-- Projeto 4 -->
+            <div class="project-card">
+                <div class="project-carousel">
+                    <div><img src="./img/eventao1.png" alt="Eventão App"></div>
+                    <div><img src="./img/eventao2.png" alt="Eventão App"></div>
+                    <div><img src="./img/eventao3.png" alt="Eventão App"></div>
+                </div>
+                <div class="project-content">
+                    <h3>Eventao</h3>
+                    <p class="project-description">Eventão é um app de gerenciamento de eventos, com a proposta de facilitar a dinâmica, frenquência e controle do deus participantes.</p>
+                    <div class="project-footer">
+                        <a href="https://github.com/Mr-Robo-D/Eventao" class="btn">Ver mais detalhes no GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 5 -->
+            <div class="project-card">
+                <div class="project-carousel">
+                    <div><img src="./img/Iot1.png" alt="Snake ESP32"></div>
+                    <div><img src="./img/Iot2.png" alt="Snake ESP32"></div>
+                    <div><img src="./img/Iot3.png" alt="Snake ESP32"></div>
+                </div>
+                <div class="project-content">
+                    <h3>Snake - ESP32</h3>
+                    <p class="project-description">Projeto do popular game "snake" rodando e um dispositivo ESP32, no qual se comunica a uma pagina HTML para fazer atualização de pontos e guardando o resultado na plataforma "ThingSpeak" para futuras consultas.</p>
+                    <div class="project-footer">
+                        <a href="https://github.com/Mr-Robo-D/Cobrinha-ThingSpeak-Dashboard-B" class="btn">Ver mais detalhes no GitHub</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+
+
+                <!-- Projeto 5 -->
+            <!-- <div class="project-card">
+                <div class="project-carousel">
+                    <div><img src="./img/Iot1.png" alt="Snake ESP32"></div>
+                    <div><img src="./img/Iot2.png" alt="Snake ESP32"></div>
+                    <div><img src="./img/Iot3.png" alt="Snake ESP32"></div>
+                </div>
+                <div class="project-content">
+                    <h3>Snake - ESP32</h3>
+                    <p class="project-description">Projeto do popular game "snake" rodando e um dispositivo ESP32, no qual se comunica a uma pagina HTML para fazer atualização de pontos e guardando o resultado na plataforma "ThingSpeak" para futuras consultas.</p>
+                    <div class="project-footer">
+                        <a href="projeto5.html" class="btn">Ver mais detalhes no GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- Caroça -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.project-carousel').slick({
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                adaptiveHeight: true,
+                autoplay: true,
+                autoplaySpeed: 3000,
+                arrows: true,
+                prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-chevron-left"></i></button>',
+                nextArrow: '<button type="button" class="slick-next"><i class="fas fa-chevron-right"></i></button>'
+            });
+        });
+    </script>
 </body>
 </html>
