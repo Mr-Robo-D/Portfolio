@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Cobrinha com ESP32 e ThingSpeak</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Cabeçalho do Projeto -->
+        <header class="project-header">
+            <h1 class="project-title">Jogo da Cobrinha com ESP32 e ThingSpeak</h1>
+            <a href="projects.html" class="btn back-btn">
+                <i class="fas fa-arrow-left"></i> Voltar para Projetos
+            </a>
+        </header>
+
+        <!-- Visão Geral do Projeto -->
+        <section class="project-overview card">
+            <h2><i class="fas fa-info-circle"></i> Visão Geral</h2>
+            <p>Este projeto consiste na implementação do popular jogo "Snake" rodando em um dispositivo ESP32. O jogo se comunica com uma página HTML para atualização de pontos e armazena os resultados na plataforma <strong>ThingSpeak</strong> para futuras consultas. O objetivo foi integrar hardware e software para criar uma experiência interativa e conectada.</p>
+        </section>
+
+        <!-- Seção de Screenshots -->
+        <section class="screenshots-section card">
+            <h2><i class="fas fa-images"></i> Screenshots</h2>
+            <div class="screenshots-carousel">
+                <img src="img/Iot1.png" alt="Tela do jogo Snake no ESP32">
+                <img src="img/Iot2.png" alt="Dashboard de ranking no HTML">
+                <img src="img/Iot3.png" alt="Simulação no Wokwi">
+            </div>
+        </section>
+
+        <!-- Minha Participação -->
+        <section class="participation-section card">
+            <h2><i class="fas fa-user-tie"></i> Minha Participação</h2>
+            <div class="participation-grid">
+                <div class="participation-card">
+                    <i class="fas fa-gamepad"></i>
+                    <h3>Desenvolvimento do Jogo</h3>
+                    <ul>
+                        <li>Implementação do jogo Snake no ESP32</li>
+                        <li>Controle de pontuação e lógica do jogo</li>
+                        <li>Exibição de pontuação no display do ESP32</li>
+                    </ul>
+                </div>
+                <div class="participation-card">
+                    <i class="fas fa-database"></i>
+                    <h3>Integração com ThingSpeak</h3>
+                    <ul>
+                        <li>Envio de pontuações para o ThingSpeak via "myWriteAPIKey"</li>
+                        <li>Leitura do maior recorde via "myReadAPIKey"</li>
+                        <li>Armazenamento de até 12 registros no ranking</li>
+                    </ul>
+                </div>
+                <div class="participation-card">
+                    <i class="fas fa-desktop"></i>
+                    <h3>Dashboard HTML</h3>
+                    <ul>
+                        <li>Criação de uma página HTML+JavaScript para exibir o ranking</li>
+                        <li>Destacar o maior registro no ranking</li>
+                        <li>Integração com o ThingSpeak para exibição dinâmica</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tecnologias Utilizadas -->
+        <section class="technologies-section card">
+            <h2><i class="fas fa-code"></i> Tecnologias Utilizadas</h2>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <i class="fas fa-microchip"></i>
+                    <span>ESP32</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-cloud"></i>
+                    <span>ThingSpeak</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-code"></i>
+                    <span>HTML + JavaScript</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-tools"></i>
+                    <span>Wokwi Simulator</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-database"></i>
+                    <span>API Keys</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Detalhes do Projeto -->
+        <section class="details-section card">
+            <h2><i class="fas fa-info-circle"></i> Detalhes do Projeto</h2>
+            <div class="details-content">
+                <h3>Entregáveis</h3>
+                <ul>
+                    <li>Jogo Snake funcional no ESP32</li>
+                    <li>Dashboard HTML para exibição de ranking</li>
+                    <li>Integração com ThingSpeak para armazenamento e consulta de dados</li>
+                </ul>
+
+                <h3>Diferenciais</h3>
+                <ul>
+                    <li>Integração em tempo real entre hardware e software</li>
+                    <li>Armazenamento e consulta dinâmica de pontuações</li>
+                    <li>Simulação acessível via Wokwi</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Links Importantes -->
+        <section class="links-section card">
+            <h2><i class="fas fa-link"></i> Links Importantes</h2>
+            <ul>
+                <li><a href="https://dontpad.com/trabalho-IoT" target="_blank">Dashboard HTML + JavaScript</a></li>
+                <li><a href="https://wokwi.com/projects/421881867536015361" target="_blank">Simulação no Wokwi</a></li>
+                
+            </ul>
+        </section>
+    </div>
+</body>
+</html>

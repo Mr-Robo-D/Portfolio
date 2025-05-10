@@ -1,39 +1,136 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de E-commerce para Livraria - Projeto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <div class="project-container">
-        <h1>Nome do Projeto</h1>
-        
-        <div class="project-content">
-            <div class="project-info">
-                <a href="LINK_GITHUB" class="btn" target="_blank">
-                    <i class="fab fa-github"></i> Ver Código
-                </a>
+    <div class="container">
+        <!-- Cabeçalho do Projeto -->
+        <header class="project-header">
+            <h1 class="project-title">Sistema de E-commerce para Livraria</h1>
+            <a href="projects.html" class="btn back-btn">
+                <i class="fas fa-arrow-left"></i> Voltar para Projetos
+            </a>
+        </header>
 
-                <h2>Minha Participação</h2>
-                <p>Descrição...</p>
+        <!-- Visão Geral do Projeto -->
+        <section class="project-overview card">
+            <h2><i class="fas fa-info-circle"></i> Visão Geral</h2>
+            <p>Modelagem completa de um sistema de e-commerce para livraria, desde análise de requisitos até design detalhado, seguindo as melhores práticas de engenharia de software.</p>
+        </section>
 
-                <h2>Tecnologias Utilizadas</h2>
-                <ul class="tech-list">
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>JavaScript</li>
-                </ul>
+        <!-- Seção de Screenshots -->
+        <section class="screenshots-section card">
+            <h2><i class="fas fa-images"></i> Screenshots</h2>
+            <div class="screenshots-carousel">
+                <img src="img/e-1.png" alt="Diagrama de Casos de Uso">
+                <img src="img/e-2.png" alt="Protótipos de Interface">
+                <img src="img/e-3.png" alt="Diagrama de Classes">
             </div>
+        </section>
 
-            <div class="screenshots">
-                <h2>Screenshots</h2>
-                <div class="screenshot-grid">
-                    <img src="screenshot1.jpg" alt="Tela 1">
-                    <img src="screenshot2.jpg" alt="Tela 2">
+        <!-- Minha Participação -->
+        <section class="participation-section card">
+            <h2><i class="fas fa-user-tie"></i> Minha Participação</h2>
+            <div class="participation-grid">
+                <div class="participation-card">
+                    <i class="fas fa-search"></i>
+                    <h3>Análise de Requisitos</h3>
+                    <ul>
+                        <li>Especificação de 5 casos de uso</li>
+                        <li>Diagramas de atividades</li>
+                        <li>Protótipos de interface</li>
+                    </ul>
+                </div>
+                <div class="participation-card">
+                    <i class="fas fa-project-diagram"></i>
+                    <h3>Modelagem de Sistemas</h3>
+                    <ul>
+                        <li>Diagrama de Casos de Uso</li>
+                        <li>5 Visões de Classes (BCE)</li>
+                        <li>Cartões CRC</li>
+                    </ul>
+                </div>
+                <div class="participation-card">
+                    <i class="fas fa-layer-group"></i>
+                    <h3>Design da Arquitetura</h3>
+                    <ul>
+                        <li>Diagrama de Classes</li>
+                        <li>Integração com sistemas externos</li>
+                        <li>Relações entre componentes</li>
+                    </ul>
+                </div>
+                <div class="participation-card">
+                    <i class="fas fa-business-time"></i>
+                    <h3>Regras de Negócio</h3>
+                    <ul>
+                        <li>Controle de estoque</li>
+                        <li>Promoções comerciais</li>
+                        <li>Fluxo de pedidos</li>
+                    </ul>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <a href="projects.html" class="btn">Voltar ao Portfólio</a>
+        <!-- Tecnologias Utilizadas -->
+        <section class="technologies-section card">
+            <h2><i class="fas fa-code"></i> Tecnologias Utilizadas</h2>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <i class="fas fa-diagram-project"></i>
+                    <span>Linguagem UML</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-cubes"></i>
+                    <span>Padrão BCE</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-object-group"></i>
+                    <span>OOA/OOD</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-toolbox"></i>
+                    <span>Lucidchart/StarUML</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-mobile-alt"></i>
+                    <span>UX Design</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Detalhes do Projeto -->
+        <section class="details-section card">
+            <h2><i class="fas fa-info-circle"></i> Detalhes do Projeto</h2>
+            <div class="details-content">
+                <h3>Entregáveis</h3>
+                <ul>
+                    <li>Documentação completa de casos de uso</li>
+                    <li>12 diagramas UML</li>
+                    <li>5 conjuntos de cartões CRC</li>
+                    <li>Protótipos de interface</li>
+                    <li>Diagrama de classes consolidado</li>
+                </ul>
+
+                <h3>Diferenciais</h3>
+                <ul>
+                    <li>Abordagem sistemática do início ao fim</li>
+                    <li>Modelagem de integrações externas</li>
+                    <li>Foco na experiência do usuário final</li>
+                </ul>
+            </div>
+        </section>
+         <!-- Links Importantes -->
+        <section class="links-section card">
+            <h2><i class="fas fa-link"></i>Link do Projeto no GitHub</h2>
+            <ul>
+                <li><a href="https://github.com/Mr-Robo-D/Analise-Design-Web" target="_blank">Analise-Design-Web</a></li>
+            </ul>
+        </section>
     </div>
 </body>
 </html>

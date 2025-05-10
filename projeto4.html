@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventão - Gerenciamento de Eventos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Cabeçalho do Projeto -->
+        <header class="project-header">
+            <h1 class="project-title">Eventão - Gerenciamento de Eventos</h1>
+            <a href="projects.html" class="btn back-btn">
+                <i class="fas fa-arrow-left"></i> Voltar para Projetos
+            </a>
+        </header>
+
+        <!-- Visão Geral do Projeto -->
+        <section class="project-overview card">
+            <h2><i class="fas fa-info-circle"></i> Visão Geral</h2>
+            <p>O Eventão é um aplicativo desenvolvido para facilitar o gerenciamento de eventos, permitindo o controle dinâmico de participantes, frequência e inscrições. Ele utiliza Firebase para autenticação, armazenamento de dados e validação de QR codes, garantindo uma experiência eficiente e segura para organizadores e participantes.</p>
+        </section>
+
+        <!-- Seção de Screenshots -->
+        <section class="screenshots-section card">
+            <h2><i class="fas fa-images"></i> Screenshots</h2>
+            <div class="screenshots-carousel">
+                <img src="img/eventao1.png" alt="Tela inicial do Eventão">
+                <img src="img/eventao2.png" alt="Tela de registro de participantes">
+                <img src="img/eventao3.png" alt="Validação de QR code no Eventão">
+            </div>
+        </section>
+
+        <!-- Minha Participação -->
+        <section class="participation-section card">
+            <h2><i class="fas fa-user-tie"></i> Minha Participação</h2>
+            <div class="participation-grid">
+                <div class="participation-card">
+                    <i class="fas fa-database"></i>
+                    <h3>Registro de Inscrições</h3>
+                    <ul>
+                        <li>Implementação do registro de inscrições no Realtime Database (/event_participants)</li>
+                        <li>Inserção de dados no Firestore (subscriptions) quando necessário</li>
+                    </ul>
+                </div>
+                <div class="participation-card">
+                    <i class="fas fa-qrcode"></i>
+                    <h3>Validação de QR Code</h3>
+                    <ul>
+                        <li>Validação de QR codes gerados para eventos</li>
+                        <li>Estruturação de dados para garantir consistência</li>
+                    </ul>
+                </div>
+                <div class="participation-card">
+                    <i class="fas fa-user-check"></i>
+                    <h3>Autenticação de Usuários</h3>
+                    <ul>
+                        <li>Garantia de que a inscrição esteja vinculada ao usuário autenticado</li>
+                        <li>Integração com Firebase Authentication</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tecnologias Utilizadas -->
+        <section class="technologies-section card">
+            <h2><i class="fas fa-code"></i> Tecnologias Utilizadas</h2>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <i class="fab fa-react"></i>
+                    <span>React Native</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-fire"></i>
+                    <span>Firebase Realtime Database</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-database"></i>
+                    <span>Firestore</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-qrcode"></i>
+                    <span>QR Code Validation</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-user-shield"></i>
+                    <span>Firebase Authentication</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Detalhes do Projeto -->
+        <section class="details-section card">
+            <h2><i class="fas fa-info-circle"></i> Detalhes do Projeto</h2>
+            <div class="details-content">
+                <h3>Entregáveis</h3>
+                <ul>
+                    <li>Registro de participantes no Realtime Database</li>
+                    <li>Validação de QR codes para controle de acesso</li>
+                    <li>Integração com Firestore para armazenamento adicional</li>
+                </ul>
+
+                <h3>Diferenciais</h3>
+                <ul>
+                    <li>Foco em segurança e autenticação de usuários</li>
+                    <li>Validação eficiente de QR codes</li>
+                    <li>Gerenciamento dinâmico e escalável de eventos</li>
+                </ul>
+            </div>
+        </section>
+ <!-- Links Importantes -->
+        <section class="links-section card">
+            <h2><i class="fas fa-link"></i>Link do Projeto no GitHub</h2>
+            <ul>
+                <li><a href="https://github.com/Mr-Robo-D/Eventao" target="_blank">Eventão</a></li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
