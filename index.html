@@ -3,28 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Danilo Lima - Desenvolvedor Full Stack</title>
+    <title>Danilo Lima - Desenvolvedor Back-end Multiplataforma</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <!-- Cabeçalho -->
-    <header class="main-header">
+    <header class="main-header py-4">
         <div class="container">
-            <div class="header-content">
-                <div class="profile-image-frame">
-                    <img src="./img/a2.jpg" alt="Danilo Pereira Lima" class="profile-image">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-auto">
+                    <div class="profile-image-frame mx-auto mb-3">
+                        <img src="./img/a2.jpg" alt="Danilo Pereira Lima" class="profile-image">
+                    </div>
                 </div>
-                <div class="header-info">
+                <div class="col text-center text-md-start">
                     <h1>Danilo Lima</h1>
-                    <p class="tagline">Desenvolvedor Full Stack | Entusiasta de Tecnologia</p>
-                    <p class="email"><i class="fas fa-envelope"></i> danilo.lima60@fatec.sp.gov.br</p>
-                    <div class="social-links">
+                    <p class="tagline mb-1">Desenvolvedor Back-end | Multiplataforma | Java | Kotlin | Spring Framework | IoT | AWS | Cloud</p>
+                    <p class="email mb-2"><i class="fas fa-envelope"></i> danilo.lima60@fatec.sp.gov.br</p>
+                    <div class="social-links d-flex justify-content-center justify-content-md-start gap-3 mb-2">
                         <a href="https://github.com/Mr-Robo-D" target="_blank" class="social-link">
                             <i class="fab fa-github"></i> GitHub/Mr-Robo-D
                         </a>
-                        <a href="https://linkedin.com/in/exemplo" target="_blank" class="social-link">
+                        <a href="https://linkedin.com/in/danilo-lima-740165123" target="_blank" class="social-link">
                             <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                        <a href="https://www.credly.com/users/danilo-lima.c5d77b2c" target="_blank" class="social-link">
+                            <i class="fas fa-certificate"></i> Credly
                         </a>
                     </div>
                 </div>
@@ -33,111 +39,153 @@
     </header>
 
     <!-- Sobre Mim -->
-    <section class="about">
+    <section class="about py-4">
         <div class="container">
             <h2>Sobre Mim</h2>
-            <p>Sou estudante universitário no curso de <strong>Desenvolvimento de Software Multiplataforma</strong> pela <em>FATEC</em>. Tenho experiência em manutenção e reparo de hardware, e estou expandindo meu conhecimento em desenvolvimento de software, com foco nas linguagens <strong>Python</strong> e <strong>Kotlin</strong>.</p>
-            <p>Trabalhei com manutenção de micros e celulares há algum tempo, sempre estando próximo de hardware, softwares de produtividade e sistemas operacionais. Essa vivência me permitiu aprender muito sobre o assunto e entender melhor as necessidades típicas dos usuários.</p>
-            <p>A área de Desenvolvimento foi um caminho natural para mim, pois sempre achei fascinante como os softwares solucionam problemas do nosso cotidiano. Agora, trabalhando com softwares na prática, tenho certeza de que é isso que seguirei daqui para frente.</p>
-            <p>Tenho convicção de que essa visão externa, um pouco fora do "apenas código", me trará grandes insights para minha carreira como programador.</p>
+            <p>Sou estudante de <strong>Desenvolvimento de Software Multiplataforma</strong> pela <em>FATEC</em> (6º semestre). Tenho experiência em montagem, manutenção e reparo de computadores e estou expandindo meu conhecimento em Desenvolvimento de Software, com foco nas linguagens <strong>Python</strong>, <strong>JavaScript</strong> e <strong>Kotlin</strong>, para integração de múltiplas plataformas, como Windows, Linux, macOS, Android, iOS, Web e aplicações IoT, combinando com técnicas de Aprendizado de Máquina e Análise de Dados. Atuo como full-stack, mas com ênfase no back-end, e atualmente tenho estudado operações com DevOps e Cloud.</p>
+            <p>Trabalhei com manutenção de micros e celulares por um tempo, tendo experiência com hardwares, softwares de produtividade e sistemas operacionais. Experiências essas que me permitiram aprender muito sobre o assunto e entender melhor como funcionam os mecanismos que usamos para desenvolver aplicações. A área de Desenvolvimento foi um caminho natural, e tenho certeza de que essa visão externa, um pouco além do "apenas código", trará grandes insights para minha carreira como programador.</p>
         </div>
     </section>
 
- 
-    <section class="education">
+    <!-- Formação Acadêmica -->
+    <section class="education py-4">
         <div class="container">
-            <h2><i class="fas fa-graduation-cap"></i> Formação</h2>
-            <ul class="education-list">
-                <li>
-                    <span class="course"><strong>Tecnologia em Desenvolvimento de Software Multiplataforma</strong></span>
-                    <span class="institution"> - Faculdade de Tecnologia de Itaquera (FATEC)</span>
-                    <span class="conclusion"> - Conclusão: 2025</span>
-                </li>
+            <h2><i class="fas fa-user-graduate"></i> Formação Acadêmica</h2>
+            <ul class="education-list list-group list-group-flush">
+                <li class="list-group-item"><strong>Instituição:</strong> Faculdade de Tecnologia do Estado de São Paulo (FATEC) 
+                    <br><strong>Curso:</strong> CST em Desenvolvimento de Software Multiplataforma (Cursando 6º semestre)</li>
+            </ul>
+            <ul class="education-list list-group list-group-flush">
+                <li class="list-group-item"><strong>Instituição:</strong> Universidade Nove de Julho (UNINOVE)
+                    <br><strong>Curso:</strong> CST em Redes de Computadores (Incompleto)</li>
             </ul>
         </div>
     </section>
 
-        <section class="education">
+    <!-- Competências Técnicas -->
+    <section class="skills py-4">
         <div class="container">
-            <h2><i class="fas fa-graduation-cap"></i> Certificados</h2>
-            <ul class="education-list">
-                <li>
-                    <span class="course"><strong>Fundamentos de Lógica de Programação</strong></span>
-                    <span class="institution"> - Fundação Bradesco</span>
-                    
-                </li>
-                                <li>
-                    <span class="course"><strong>Python Essentials</strong></span>
-                    <span class="institution"> - Cisco / Python Institute</span>
-                
-                </li>
-                                <li>
-                    <span class="course"><strong>Formação em Cyber Segurança - Nivelamento</strong></span>
-                    <span class="institution">- SOFTEX Hackers do Bem</span>
-                   
-                </li>
+            <h2><i class="fas fa-laptop-code"></i> Competências Técnicas</h2>
+            <div class="row g-3 skills-list">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="skill-card h-100">
+                        <strong>Front-end:</strong> HTML, CSS, Bootstrap, React e Jetpack Compose
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="skill-card h-100">
+                        <strong>Back-end:</strong> Python, Kotlin, JavaScript e Java
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="skill-card h-100">
+                        <strong>Frameworks & Bibliotecas:</strong> KMP (Kotlin Multiplatform), Ktor, React Native, Express.js, Flask e Spring Boot
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="skill-card h-100">
+                        <strong>Bancos de Dados:</strong> MySQL, PostgreSQL, DynamoDB, MongoDB e SQLite
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="skill-card h-100">
+                        <strong>Data Science & Machine Learning:</strong> Jupyter, Google Colab, NumPy, SciPy, Pandas, Matplotlib, TensorFlow e Scikit-learn
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="skill-card h-100">
+                        <strong>Cloud Computing (AWS):</strong> EC2, S3, Lambda, RDS, IAM, VPC, CloudWatch, IA Generativa, IaaS, PaaS, SaaS e FaaS
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="skill-card h-100">
+                        <strong>Internet das Coisas (IoT):</strong> ESP32, Arduino, Raspberry Pi, Sensores, MQTT e AWS IoT
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="skill-card h-100">
+                        <strong>Ferramentas & DevOps:</strong> Figma, Jira (Scrum), Git, GitHub Actions, WSL e Docker
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="skill-card h-100">
+                        <strong>Redes & Virtualização:</strong> TCP/IP, UDP, DNS, DHCP, FTP/SFTP, SMB, VPN, DMZ, QoS, UPnP, HTTP, HTTPS, VirtualBox e VMware
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="skill-card h-100">
+                        <strong>Sistemas Operacionais:</strong> Linux e Windows
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="skill-card h-100">
+                        <strong>Idiomas:</strong> Inglês Nível B2 (Compreensão auditiva e leitura em nível C1)
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="skill-card h-100">
+                        <strong>Estudos Atuais:</strong> Generative AI da AWS, Google Cloud e Azure da Microsoft
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Certificados -->
+    <section class="education py-4">
+        <div class="container">
+            <h2><i class="fas fa-certificate"></i> Certificados</h2>
+            <ul class="education-list list-group list-group-flush">
+                <li class="list-group-item">Desenvolvedor Front-End (Centro Paula Souza)</li>
+                <li class="list-group-item">Desenvolvedor Back-End (Centro Paula Souza)</li>
+                <li class="list-group-item">Desenvolvedor para Dispositivos Móveis (Centro Paula Souza)</li>
+                <li class="list-group-item">Python Essentials (Cisco / Python Institute)</li>
+                <li class="list-group-item">Generative AI Foundations (AWS)</li>
+                <li class="list-group-item">Cloud Computing Foundations (AWS e Google)</li>
             </ul>
         </div>
     </section>
-    
-    <section class="experience">
+
+    <!-- Experiência Profissional -->
+    <section class="experience py-4">
         <div class="container">
             <h2><i class="fas fa-briefcase"></i> Experiência Profissional</h2>
-            <div class="job">
-                <h3>FERRUGEM GAMES - ASSISTÊNCIA TÉCNICA</h3>
-                <p class="date">Desde 01/03/2019</p>
-                <p class="position">Técnico de Manutenção</p>
-                <ul>
-                    <li>Manutenção de hardware e software em computadores e videogames.</li>
-                    <li>Consultoria em TI e suporte técnico avançado.</li>
-                    <li>Desenvolvimento de soluções personalizadas para clientes.</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- Skills -->
-    <section class="skills">
-        <div class="container">
-            <h2><i class="fas fa-laptop-code"></i> Skills & Tecnologias</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>Linguagens</h3>
-                    <ul>
-                        <li>Kotlin</li>
-                        <li>Python</li>
-                        <li>Java</li>
-                        <li>JavaScript</li>
-                        <li>C/C++</li>
-                    </ul>
+            <div class="row g-4">
+                <div class="col-12 col-md-6">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="card-title">TECMOS</h3>
+                            <p class="date mb-1"><i class="far fa-calendar-alt"></i> 02/2012 - 02/2019</p>
+                            <p class="position mb-2">Técnico de Informática</p>
+                            <ul>
+                                <li>Manutenção de Micros</li>
+                                <li>Suporte Técnico a clientes</li>
+                                <li>Consultoria</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="skill-category">
-                    <h3>Frameworks</h3>
-                    <ul>
-                        <li>Ktor</li>
-                        <li>Jetpack Compose</li>
-                        <li>React Native</li>
-                        <li>Spring Boot</li>
-                        <li>Flask</li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h3>Outros</h3>
-                    <ul>
-                        <li>Docker</li>
-                        <li>Git/GitHub</li>
-                        <li>MySQL/MongoDB</li>
-                        <li>Arduino/ESP32</li>
-                        <li>TensorFlow</li>
-                    </ul>
+                <div class="col-12 col-md-6">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="card-title">FERRUGEM GAMES - ASSISTÊNCIA TÉCNICA</h3>
+                            <p class="date mb-1"><i class="far fa-calendar-alt"></i> 03/2019 - 05/2025</p>
+                            <p class="position mb-2">Técnico de Informática</p>
+                            <ul>
+                                <li>Manutenção de Micros, Videogames</li>
+                                <li>Vendas</li>
+                                <li>Suporte técnico a clientes</li>
+                                <li>Consultoria</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Port -->
-    <section class="portfolio">
+    <!-- Portfólio -->
+    <section class="portfolio py-4">
         <div class="container">
             <h2><i class="fas fa-folder-open"></i> Portfólio de Projetos</h2>
             <p>Confira alguns dos projetos que desenvolvi durante minha jornada acadêmica e profissional.</p>
@@ -148,10 +196,11 @@
     </section>
 
     <!-- Rodapé -->
-    <footer class="main-footer">
-        <div class="container">
-            <p>&copy; 2025 Danilo Pereira Lima.</p>
+    <footer class="main-footer py-3">
+        <div class="container text-center">
+            <p>&copy; 2025</p>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

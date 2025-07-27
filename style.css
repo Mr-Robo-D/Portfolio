@@ -4,15 +4,33 @@
     --azul-brilhante: #00A6FB;
     --preto: #1A1A2E;
     --branco: #FFFFFF;
-    --cinza-claro: #F8F9FA;
-    --cinza-medio: #E9ECEF;
+    --cinza-claro: #e0efff;
+    --cinza-medio: #e4eaef;
     --sombra: 0 4px 20px rgba(0, 0, 0, 0.1);
     --sombra-destaque: 0 8px 30px rgba(10, 36, 99, 0.2);
-    
+    --bloco-educacao-bg: #f6fafb4f;
     --font-primary: 'Poppins', sans-serif;
     --font-secondary: 'Roboto Mono', monospace;
+    --participation-card-bg: #89b0e924;
 }
 
+/* Blocos de Formação Acadêmica e Certificados */
+.participation-card {
+    background: var(--participation-card-bg);
+    padding: 1.5rem;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.education-list .list-group-item {
+    background: var(--bloco-educacao-bg);
+    border: none;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: var(--sombra);
+    transition: all 0.3s ease;
+}
 body {
     font-family: var(--font-primary);
     line-height: 1.6;
@@ -34,7 +52,7 @@ body {
 /* Cabeçalho */
 .main-header {
     background: var(--azul-escuro);
-    color: var(--branco);
+    color: white;
     padding: 2rem 0;
     text-align: center;
 }
@@ -50,12 +68,21 @@ body {
     font-size: 2rem;
 }
 
+.profile-image {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;      /* Mostra a imagem inteira, afastando o zoom */
+    object-position: center;
+    border-radius: 50%;
+    margin-bottom: 1rem;    /* Opcional: fundo branco para áreas vazias */
+}
+
 .social-links {
     margin-top: 1rem;
 }
 
 .social-link {
-    color: var(--branco);
+    color: white;
     margin: 0 0.5rem;
     text-decoration: none;
     font-size: 1.2rem;
@@ -134,7 +161,7 @@ section {
 }
 
 .project-card {
-    background: var(--branco);
+    background: rgb(220, 233, 247);
     border-radius: 12px;
     overflow: hidden;
     box-shadow: var(--sombra);
@@ -243,6 +270,8 @@ section {
     font-size: 10px;
 }
 
+
+
 .slick-dots li.slick-active button:before {
     color: var(--azul-brilhante);
     opacity: 1;
@@ -295,9 +324,12 @@ section {
   background: #F8F9FA;
   padding: 1.5rem;
   border-radius: 8px;
-  margin-bottom: 2rem;
+  margin-bottom: 8rem;
   font-size: 1.1rem;
   line-height: 1.6;
+  color: #333; 
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05); 
+  border: 15px solid #ddd; 
 }
 
 h2 {
@@ -319,6 +351,7 @@ h2 i {
   overflow-x: auto;
   padding: 1rem 0;
   margin-bottom: 2rem;
+  border: 15px solid #dddddd00; 
 }
 
 .screenshots-carousel img {
@@ -334,14 +367,10 @@ h2 i {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 1.5rem;
   margin-bottom: 2rem;
+  border: 25px solid #dddddd00; 
 }
 
-.participation-card {
-  background: #F8F9FA;
-  padding: 1.5rem;
-  border-radius: 8px;
-  transition: transform 0.3s ease;
-}
+
 
 .participation-card:hover {
   transform: translateY(-5px);
@@ -373,6 +402,7 @@ h2 i {
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 1.5rem;
   margin-bottom: 2rem;
+  border: 15px solid #dddddd00; 
 }
 
 .tech-item {
@@ -380,7 +410,7 @@ h2 i {
   flex-direction: column;
   align-items: center;
   gap: 0.7rem;
-  background: #F8F9FA;
+  background: var(--participation-card-bg);
   padding: 1.5rem 1rem;
   border-radius: 8px;
   text-align: center;
@@ -397,9 +427,10 @@ h2 i {
 
 /* Details Section */
 .details-content {
-  background: #F8F9FA;
+  background: var(--participation-card-bg);
   padding: 1.5rem;
   border-radius: 8px;
+  border: 15px solid #dddddd00; 
 }
 
 .details-content h3 {
@@ -456,12 +487,13 @@ h2 i {
 
 
 .card {
-    background: var(--branco);
-    border-radius: 12px;
-    box-shadow: var(--sombra);
-    padding: 1.5rem;
+    background: var(--bloco-educacao-bg); /* exp */
+    border-radius: 15px;
+    border-color: #00a7fb00;
+    padding: 0.5rem;
     margin-bottom: 2rem;
     transition: all 0.3s ease;
+    box-shadow: var(--sombra);
 }
 
 .card:hover {
@@ -478,8 +510,8 @@ h2 i {
     width: 150px;
     height: 150px;
     margin: 0 auto 1rem;
-    border: 5px solid var(--azul-brilhante);
-    border-radius: 50%;
+    border: 2px solid var(--azul-brilhante);
+    border-radius: 45%;
     overflow: hidden;
 }
 
@@ -494,7 +526,7 @@ h2 i {
     display: inline-block;
     padding: 0.8rem 1.5rem;
     background: var(--azul-escuro);
-    color: var(--branco);
+    color: white;
     text-decoration: none;
     border-radius: 50px;
     font-weight: 500;
@@ -569,5 +601,20 @@ h2 i {
     
     .project-content h3 {
         font-size: 1.1rem;
+flex-direction: column;
+        align-items: stretch;
+    }
+    .project-carousel {
+        max-width: 100%;
+        min-height: 160px;
+        border-radius: 10px 10px 0 0;
+    }
+    .project-content {
+        padding: 1.2rem 1rem;
+    }
+    .project-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
     }
 }
