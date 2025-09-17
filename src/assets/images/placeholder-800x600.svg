@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Imagem Indisponível</title>
+  <desc id="desc">Placeholder genérico para screenshots de projetos</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f7f7f7"/>
+      <stop offset="100%" stop-color="#e5e7eb"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="800" height="600" fill="url(#bg)"/>
+  <rect x="8" y="8" width="784" height="584" fill="none" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="6 8"/>
+  <g fill="#64748b" font-family="Segoe UI, Roboto, Arial, sans-serif" text-anchor="middle">
+    <text x="400" y="295" font-size="28" font-weight="600">Imagem indisponível</text>
+    <text x="400" y="330" font-size="16">Substitua por um screenshot do projeto</text>
+  </g>
+</svg>

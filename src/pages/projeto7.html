@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API com Padrões de Projeto - Projeto</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Cabeçalho do Projeto -->
+        <header class="project-header">
+            <h1 class="project-title">API de Cadastro de Clientes com Padrões de Projeto</h1>
+            <a href="projects.html" class="btn back-btn">
+                <i class="fas fa-arrow-left"></i> Voltar para Projetos
+            </a>
+        </header>
+
+        <!-- Visão Geral do Projeto -->
+        <section class="project-overview card">
+            <h2><i class="fas fa-info-circle"></i> Visão Geral</h2>
+            <p>API RESTful desenvolvida em Java com Spring Boot 3, utilizando padrões de projeto como Strategy, Facade e Singleton para um cadastro de clientes eficiente e organizado. Integração com banco de dados H2.</p>
+        </section>
+
+        <!-- Tecnologias Utilizadas -->
+        <section class="technologies-section card">
+            <h2><i class="fas fa-code"></i> Tecnologias Utilizadas</h2>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <i class="fab fa-java"></i>
+                    <span>Java</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-leaf"></i>
+                    <span>Spring Boot</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-database"></i>
+                    <span>H2 Database</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Descrição Técnica -->
+        <section class="details-section card">
+            <h2><i class="fas fa-microchip"></i> Descrição Técnica</h2>
+            <p>API REST em Spring Boot organizada em camadas (controller, service e repository), utilizando Spring Data JPA para persistência e H2 para execução local. O consumo de serviço externo é feito via OpenFeign, e a documentação interativa da API é exposta com Swagger (Springdoc/OpenAPI).</p>
+        </section>
+
+        <!-- Principais Funcionalidades -->
+        <section class="features-section card">
+            <h2><i class="fas fa-list-check"></i> Principais Funcionalidades</h2>
+            <ul>
+                <li>CRUD de clientes (criar, listar, atualizar, deletar).</li>
+                <li>Integração com serviço externo (via OpenFeign) para enriquecimento de dados.</li>
+                <li>Documentação automática da API com Swagger UI.</li>
+            </ul>
+        </section>
+
+        <!-- Arquitetura -->
+        <section class="architecture-section card">
+            <h2><i class="fas fa-sitemap"></i> Arquitetura</h2>
+            <p>Padrão em camadas com uso de Design Patterns: Strategy (variações de regras), Singleton (instâncias compartilhadas quando aplicável) e Facade (simplificação de integrações). Persistência com Spring Data JPA e banco em memória H2 para desenvolvimento e testes.</p>
+        </section>
+
+        <!-- Requisitos do Sistema -->
+        <section class="requirements-section card">
+            <h2><i class="fas fa-tools"></i> Requisitos do Sistema</h2>
+            <ul>
+                <li>JDK</li>
+                <li>Maven ou Gradle.</li>
+                <li>Porta local disponível (por exemplo, 8080) para execução do Spring Boot.</li>
+            </ul>
+        </section>
+
+         <!-- Links Importantes -->
+        <section class="links-section card">
+            <h2><i class="fas fa-link"></i>Link do Projeto no GitHub</h2>
+            <ul>
+                <li><a href="https://github.com/Mr-Robo-D/Spring-Patterns-DIO" target="_blank">Spring-Patterns-DIO</a></li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>

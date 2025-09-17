@@ -1,0 +1,39 @@
+/* Button Styles */
+.btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background: var(--azul-escuro);
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background: var(--azul-brilhante);
+    transform: translateY(-2px);
+    box-shadow: var(--sombra-destaque);
+}
+
+.btn i {
+    font-size: 0.9rem;
+}
+
+.back-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.8rem 1.5rem;
+    background: var(--azul-escuro);
+    color: white !important;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.back-btn:hover {
+    background: var(--azul-brilhante);
+    transform: translateY(-2px);
+    box-shadow: var(--sombra-destaque);
+}

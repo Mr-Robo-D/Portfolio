@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Board de Tarefas - Projeto</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Cabeçalho do Projeto -->
+        <header class="project-header">
+            <h1 class="project-title">Board de Tarefas</h1>
+            <a href="projects.html" class="btn back-btn">
+                <i class="fas fa-arrow-left"></i> Voltar para Projetos
+            </a>
+        </header>
+
+        <!-- Visão Geral do Projeto -->
+        <section class="project-overview card">
+            <h2><i class="fas fa-info-circle"></i> Visão Geral</h2>
+            <p>Sistema para gerenciamento de quadros de tarefas em Java com persistência de dados via JDBC, MySQL e controle de versão de banco de dados com Liquibase.</p>
+        </section>
+
+        <!-- Tecnologias Utilizadas -->
+        <section class="technologies-section card">
+            <h2><i class="fas fa-code"></i> Tecnologias Utilizadas</h2>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <i class="fab fa-java"></i>
+                    <span>Java</span>
+                </div>
+                <div class="tech-item">
+                    <img src="https://img.shields.io/badge/JDBC-000?style=for-the-badge&logo=openjdk&logoColor=white" alt="JDBC">
+                    <span>JDBC</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-database"></i>
+                    <span>MySQL</span>
+                </div>
+                <div class="tech-item">
+                    <img src="https://img.shields.io/badge/Liquibase-000?style=for-the-badge&logo=liquibase&logoColor=white" alt="Liquibase">
+                    <span>Liquibase</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Descrição Técnica -->
+        <section class="details-section card">
+            <h2><i class="fas fa-microchip"></i> Descrição Técnica</h2>
+            <p>Aplicação Java voltada à gestão de quadros e tarefas, com persistência realizada via JDBC (driver MySQL) e evolução controlada do esquema de dados com Liquibase. O código separa regras de negócio da camada de acesso a dados para favorecer manutenção, legibilidade e testes.</p>
+        </section>
+
+        <!-- Principais Funcionalidades -->
+        <section class="features-section card">
+            <h2><i class="fas fa-list-check"></i> Principais Funcionalidades</h2>
+            <ul>
+                <li>Cadastro, atualização e exclusão de quadros e tarefas.</li>
+                <li>Listagem de dados com persistência no MySQL.</li>
+                <li>Controle de versionamento do banco via changelogs do Liquibase.</li>
+            </ul>
+        </section>
+
+        <!-- Arquitetura -->
+        <section class="architecture-section card">
+            <h2><i class="fas fa-sitemap"></i> Arquitetura</h2>
+            <p>Arquitetura monolítica simples com camadas separadas para regras de negócio e persistência (DAO). A base de dados relacional MySQL armazena as informações, enquanto o Liquibase gerencia a evolução do esquema com segurança e rastreabilidade.</p>
+        </section>
+
+        <!-- Requisitos do Sistema -->
+        <section class="requirements-section card">
+            <h2><i class="fas fa-tools"></i> Requisitos do Sistema</h2>
+            <ul>
+                <li>JDK instalado (versão compatível com o projeto).</li>
+                <li>MySQL instalado e acessível.</li>
+                <li>Liquibase configurado (via CLI ou plugin da ferramenta de build).</li>
+                <li>Ferramenta de build Java (Maven ou Gradle) para compilar e executar o projeto.</li>
+            </ul>
+        </section>
+
+         <!-- Links Importantes -->
+        <section class="links-section card">
+            <h2><i class="fas fa-link"></i>Link do Projeto no GitHub</h2>
+            <ul>
+                <li><a href="https://github.com/Mr-Robo-D/Board-de-Tarefas" target="_blank">Board-de-Tarefas</a></li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>

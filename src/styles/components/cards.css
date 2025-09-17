@@ -1,0 +1,43 @@
+/* Card Components */
+.card {
+    background: var(--bloco-educacao-bg);
+    border-radius: 15px;
+    border-color: transparent;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    transition: all 0.3s ease;
+    box-shadow: var(--sombra);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--sombra-destaque);
+}
+
+.skill-card {
+    background: var(--participation-card-bg);
+    padding: 1.5rem;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    height: 100%;
+}
+
+.skill-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--sombra-destaque);
+}
+
+.project-card {
+    background: rgb(220, 233, 247);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: var(--sombra);
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--sombra-destaque);
+}

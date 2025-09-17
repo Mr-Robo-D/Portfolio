@@ -1,0 +1,42 @@
+/* Header Styles */
+.main-header {
+    background: var(--azul-escuro);
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-info h1 {
+    margin: 0.5rem 0;
+    font-size: 2rem;
+}
+
+.profile-image {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.social-links {
+    margin-top: 1rem;
+}
+
+.social-link {
+    color: white;
+    margin: 0 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.social-link:hover {
+    color: var(--azul-brilhante);
+}
